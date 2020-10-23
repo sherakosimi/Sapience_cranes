@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+  font-family: 'Tinos';
+  src: local('Tinos'), url(./fonts/Tinos-Regular.ttf) ;
+}
+@font-face {
+  font-family: 'TinosBoldItalic';
+  src: local('TinosBoldItalic'), url(./fonts/Tinos-BoldItalic.ttf) ;
+}
+@font-face {
+  font-family: 'TinosBold';
+  src: local('TinosBold'), url(./fonts/Tinos-Bold.ttf) ;
+}
+@font-face {
+  font-family: 'AcmeRegular';
+  src: local('AcmeRegular'), url(./fonts/Acme-Regular.ttf) ;
+}
+@font-face {
+  font-family: 'NeutonBold';
+  src: local('NeutonBold'), url(./fonts/Neuton-Bold.ttf) ;
+}
+@font-face {
+  font-family: 'nashadostavka';
+  src: local('nashadostavka'), url(./fonts/17874.ttf) ;
+}@font-face {
+  font-family: 'button';
+  src: local('button'), url(./fonts/17734.otf) ;
+}
+@font-face {
+  font-family: 'Merriweather';
+  src: local('nashadostavka'), url(./fonts/Merriweather-Light.ttf) ;
+}
+@font-face {
+  font-family: 'Caviar';
+  src: local('caviar'), url(./fonts/caviar.ttf) ;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
