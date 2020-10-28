@@ -22,11 +22,15 @@ import tormoz from '../assets/tormoz.jpg'
 import povorot from '../assets/povorot.png'
 import engine from '../assets/engine.png'
 import pribor from '../assets/pribor.jpg'
-import kokos from '../assets/kokos.jpg'
+import kokos from '../assets/sekciya.JPG'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import './styles.css';
+import { navigate } from "@reach/router";
 
+function onAppClick() {
+  navigate("/application")
+}
 
 function Lala() {
 
@@ -55,20 +59,15 @@ function Lala() {
       </head>
       <body className='body'>
         <nav className={navbar ? 'navbar active' : 'navbar'}>
-          <div className='header'>
-            <div className='container'>
-              <img alt="logo" src={navbar ? logo : logo1} className='img' />
-              <h1 className={navbar ? 'h1' : 'h2'}>SAPIENCE CRANES</h1>
-              <button className={navbar ? 'button button1' : 'button22 button2'}>
-                <img alt="appicon" src={navbar ? appicon : appicon2} className='icon' />
-                Оставить Заявку
-              </button>
-            </div>
-          </div>
+          <img alt="logo" src={navbar ? logo : logo1} className='img' />
+          <h1 className={navbar ? 'h1' : 'h1 h2'}>SAPIENCE CRANES</h1>
+          <button className={navbar ? 'button button1' : 'button22 button2'} onClick={onAppClick}>
+            <img alt="appicon" src={navbar ? appicon : appicon2} className='icon' />
+            Оставить Заявку
+          </button>
         </nav>
-        <div className='slideshow'>
-          <Carousel interval={2000} style={{ width: '100%' }}>
-            <Carousel.Item style={{ height: 1000, width: '100%' }}>
+        <Carousel interval={10000} style={{ marginTop:"-10%" ,width: '100%'}}>
+            <Carousel.Item style={{  width: '100%' }}>
               <div class='color-overlay'>
               </div>
               <img
@@ -76,8 +75,8 @@ function Lala() {
                 src={slide1}
                 alt="First slide"
               />
-              <Carousel.Caption>
-                <div style={{ marginTop: '-44%', marginLeft: 150 }}>
+              <Carousel.Caption className="caption">
+                <div style={{ height:'100%'}}>
                   <p style={{ fontSize: 30, width: 1000, textAlign: 'center', fontFamily: 'nashadostavka' }}>
                     Наша компания занимается доставкой запчастей для башенных, гусеничных и
                     автомобильных кранов из Китая. Мы имеем опыт работы с кранами более 15-ти лет и
@@ -86,7 +85,7 @@ function Lala() {
                 </div>
               </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item style={{ height: 1000, width: '100%' }}>
+            <Carousel.Item style={{ width: '100%' }}>
               <div class='color-overlay'>
               </div>
               <img
@@ -94,8 +93,8 @@ function Lala() {
                 src={slide2}
                 alt="Second slide"
               />
-              <Carousel.Caption>
-                <div style={{ marginTop: '-44%', marginLeft: 150 }}>
+               <Carousel.Caption className="caption">
+                <div style={{ height:'100%'}}>
                   <p style={{ fontSize: 30, width: 1000, textAlign: 'center', fontFamily: 'nashadostavka' }}>
                     Наша компания занимается доставкой запчастей для башенных, гусеничных и
                     автомобильных кранов из Китая. Мы имеем опыт работы с кранами более 15-ти лет и
@@ -104,7 +103,7 @@ function Lala() {
                 </div>
               </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item style={{ height: 1000, width: '100%' }}>
+            <Carousel.Item style={{width: '100%' }}>
               <div class='color-overlay'>
               </div>
               <img
@@ -112,8 +111,8 @@ function Lala() {
                 src={slide3}
                 alt="Third slide"
               />
-              <Carousel.Caption>
-                <div style={{ marginTop: '-44%', marginLeft: 150 }}>
+                <Carousel.Caption className="caption">
+                <div style={{ height:'100%'}}>
                   <p style={{ fontSize: 30, width: 1000, textAlign: 'center', fontFamily: 'nashadostavka' }}>
                     Наша компания занимается доставкой запчастей для башенных, гусеничных и
                     автомобильных кранов из Китая. Мы имеем опыт работы с кранами более 15-ти лет и
@@ -123,89 +122,74 @@ function Lala() {
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
-        </div>
-        <div className="categories">
+          <h1 className="categories-head">Категории</h1>
+          <div className="categories">
           <div className='div1'>
-            <motion.div 
-            whileHover={{ scale: 1.1 }}
-             whileTap={{ scale: 1.1 }}
-              data-aos="fade-right"
-               className="box1">
-              <h1 className="categories-title"></h1>
+      
+            <motion.div
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 1.1 }}
+              className="box1">
               <h1 className="categories-title">Подшипники</h1>
-
               <img alt="podshipnik" src={podshipnik} className="categories-image1" />
             </motion.div>
-            <motion.div  
-            whileHover={{ scale: 1.1 }} 
-            whileTap={{ scale: 1.1 }} 
-            data-aos="fade-down" 
-            className="box1">
-              <h1 className="categories-title"></h1>
-              <h1 className="categories-title">Двигатели</h1>
 
+            <motion.div
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 1.1 }}
+              className="box1">
+              <h1 className="categories-title">Двигатели</h1>
               <img alt="dvigatel" src={dvigatel} className="categories-image1" />
             </motion.div>
-            <motion.div 
-            whileHover={{ scale: 1.1 }} 
-            whileTap={{ scale: 1.1 }}
-             data-aos="fade-down"
-              className="box1">
-              <h1 className="categories-title"></h1>
-              <h1 className="categories-title">Кабины</h1>
 
+            <motion.div
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 1.1 }}
+              className="box1">
+              <h1 className="categories-title">Кабины</h1>
               <img alt="kabina" src={kabina} className="categories-image1" />
             </motion.div>
-            <motion.div 
-            whileHover={{ scale: 1.1 }}
-             whileTap={{ scale: 1.1 }} 
-             data-aos="fade-left"
-              className="box1">
-              <h1 className="categories-title"></h1>
-              <h1 className="categories-title">Тормозные накладки</h1>
 
+            <motion.div
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 1.1 }}
+              className="box1">
+              <h1 className="categories-title">Тормозные накладки</h1>
               <img alt="tormoz" src={tormoz} className="categories-image1" />
             </motion.div>
-            <motion.div 
-             whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 1.1 }} 
-            data-aos="fade-right"
-             className="box1">
-              <h1 className="categories-title"></h1>
-              <h1 className="categories-title">Поворотное устройство</h1>
 
+            <motion.div
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 1.1 }}
+              className="box1">
+              <h1 className="categories-title">Поворотное устройство</h1>
               <img alt="povorot" src={povorot} className="categories-image1" />
             </motion.div>
-            <motion.div
-             whileHover={{ scale: 1.1 }}
-             whileTap={{ scale: 1.1 }} 
-            data-aos="fade-up" 
-            className="box1">
-              <h1 className="categories-title"></h1>
-              <h1 className="categories-title">Приборы безопасности</h1>
 
+            <motion.div
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 1.1 }}
+              className="box1">
+              <h1 className="categories-title">Приборы безопасности</h1>
               <img alt="pribor" src={pribor} className="categories-image" />
             </motion.div>
+
             <motion.div
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 1.1 }}
-              data-aos="fade-up"
               className="box1">
-              <h1 className="categories-title"></h1>
               <h1 className="categories-title">Редуктора</h1>
-
               <img alt="engine" src={engine} className="categories-image1" />
             </motion.div>
+
             <motion.div
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 1.1 }}
-              data-aos="fade-left"
               className="box1">
-              <h1 className="categories-title"></h1>
-              <h1 className="categories-title">Хуй подзаборный</h1>
-
+              <h1 className="categories-title">Секция БК</h1>
               <img alt="kokos" src={kokos} className="categories-image1" />
             </motion.div>
+
           </div>
         </div>
       </body>

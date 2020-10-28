@@ -6,7 +6,7 @@ import "./App.css";
 import "antd/dist/antd.css";
 import Lala from "./posts/Lala";
 import Test from "./posts/Test";
-
+import Application from "./posts/Application";
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -18,7 +18,8 @@ function App() {
   return (
     <ProvideFirebase>
       <Router>
-        <Test path = "/ssss"/>
+        <Application path = "/application"/>
+        <Test path = "/ss"/>
         <Lala path = "/"/>
       <MainPage path="/ss" />
       </Router>

@@ -5,6 +5,7 @@ import "firebase/auth";
 import { config } from "./config";
 import { } from "antd";
 import FacebookLoginWithButton from 'react-facebook-login';
+import emailjs from "emailjs-com";
 
 const firebaseContext = React.createContext();
 firebase.initializeApp(config);
@@ -122,10 +123,20 @@ console.log(" user success upload")}
 console.log(cards1)
 
   }
+  const sendEmail=(e)=>{
+    e.preventDefault();
 
+    emailjs.sendForm('gmail', 'template_mzcfusa', e.target, 'user_Ra8roTJE5NBAXZq7eRSsY')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  }
 
 
   return {
+    sendEmail,
     userUpload,
     getCards,
     user,
