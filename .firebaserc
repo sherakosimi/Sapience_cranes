@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "fir-learning-30279"
+    "default": "fir-learning-30279",
+    "development": "sapience-cranes"
   }
 }

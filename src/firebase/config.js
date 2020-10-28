@@ -1,4 +1,4 @@
-export const config = {
+export const config ={
   apiKey: "AIzaSyDbnnyyEFSft8JHfsSa-sdYENL4ILWRlPM",
   authDomain: "sapience-cranes.firebaseapp.com",
   databaseURL: "https://sapience-cranes.firebaseio.com",

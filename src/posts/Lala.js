@@ -55,7 +55,8 @@ function Lala() {
   return (
     <html>
       <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="crane.ico"/> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>Sapience Cranes</title>
       </head>
       <body className='body'>
         <nav className={navbar ? 'navbar active' : 'navbar'}>
@@ -66,7 +67,7 @@ function Lala() {
             Оставить Заявку
           </button>
         </nav>
-        <Carousel interval={10000} style={{ marginTop:"-10%" ,width: '100%'}}>
+        <Carousel interval={2000} style={{ marginTop:"-10%" ,width: '100%'}}>
             <Carousel.Item style={{  width: '100%' }}>
               <div class='color-overlay'>
               </div>
