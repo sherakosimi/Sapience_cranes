@@ -1,32 +1,13 @@
-import React, { useState, useEffect } from "react";
-import styled from "styled-components";
-import { Button, Layout, Typography, Input, message, Form, Space, Upload, Select, InputNumber } from "antd";
+import React, { useState} from "react";
+import { message } from "antd";
 import { useFirebase } from "../firebase/useFirebase";
 import { navigate } from "@reach/router";
-import { Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-//import { Spring } from 'react-spring/renderprops';
-//import { useSpring } from 'react-spring'
-import { motion } from "framer-motion";
-import slide1 from '../assets/slidephoto12.JPG'
-import slide2 from '../assets/slidephoto22.JPG'
-import slide3 from '../assets/slidephoto32.JPG'
 import logo from '../assets/newlogo.png'
 import logo1 from '../assets/newlogowhite.png'
 import appicon from '../assets/application.png'
 import appicon2 from '../assets/applicationwhite.png'
-import podshipnik from '../assets/podshipnik.png'
-import dvigatel from '../assets/dvigatel.jpg'
-import kabina from '../assets/kabina.jpg'
-import tormoz from '../assets/tormoz.jpg'
-import povorot from '../assets/povorot.png'
-import engine from '../assets/engine.png'
-import pribor from '../assets/pribor.jpg'
-import kokos from '../assets/kokos.jpg'
-import { UploadOutlined } from '@ant-design/icons';
 import emailjs from "emailjs-com";
-import Aos from 'aos';
-import 'aos/dist/aos.css';
 import './styles.css';
 
 

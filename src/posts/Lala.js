@@ -1,12 +1,7 @@
 import React, { useState, useEffect } from "react";
-import styled from "styled-components";
-import { Button, Layout, Typography, Input, message } from "antd";
-import { useFirebase } from "../firebase/useFirebase";
 //import { navigate } from "@reach/router";
 import { Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-//import { Spring } from 'react-spring/renderprops';
-//import { useSpring } from 'react-spring'
 import { motion } from "framer-motion";
 import slide1 from '../assets/slidephoto12.JPG'
 import slide2 from '../assets/slidephoto22.JPG'
@@ -78,7 +73,7 @@ function Lala() {
               />
               <Carousel.Caption className="caption">
                 <div style={{ height:'100%'}}>
-                  <p style={{ fontSize: 30, width: 1000, textAlign: 'center', fontFamily: 'nashadostavka' }}>
+                  <p className="slideshow-text">
                     Наша компания занимается доставкой запчастей для башенных, гусеничных и
                     автомобильных кранов из Китая. Мы имеем опыт работы с кранами более 15-ти лет и
                     поможем Вам подобрать запчасти для Вашей техники. Оставьте заявку на вкладке сверху
@@ -96,7 +91,7 @@ function Lala() {
               />
                <Carousel.Caption className="caption">
                 <div style={{ height:'100%'}}>
-                  <p style={{ fontSize: 30, width: 1000, textAlign: 'center', fontFamily: 'nashadostavka' }}>
+                <p className="slideshow-text">
                     Наша компания занимается доставкой запчастей для башенных, гусеничных и
                     автомобильных кранов из Китая. Мы имеем опыт работы с кранами более 15-ти лет и
                     поможем Вам подобрать запчасти для Вашей техники. Оставьте заявку на вкладке сверху
@@ -114,7 +109,7 @@ function Lala() {
               />
                 <Carousel.Caption className="caption">
                 <div style={{ height:'100%'}}>
-                  <p style={{ fontSize: 30, width: 1000, textAlign: 'center', fontFamily: 'nashadostavka' }}>
+                <p className="slideshow-text">
                     Наша компания занимается доставкой запчастей для башенных, гусеничных и
                     автомобильных кранов из Китая. Мы имеем опыт работы с кранами более 15-ти лет и
                     поможем Вам подобрать запчасти для Вашей техники. Оставьте заявку на вкладке сверху

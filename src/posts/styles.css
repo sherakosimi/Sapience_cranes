@@ -1,4 +1,10 @@
 
+.slideshow-text{
+  font-size: 30px;
+  width: 1000px;
+  text-align: center;
+  font-family: 'nashadostavka';
+}
 .caption {
   height:22%;
   display: flex;
@@ -191,6 +197,7 @@ fieldset {
 
   height:1000px;
   width: 100%;
+  height: 100%;
   background-color:transparent ;
   align-items: center;
  
@@ -593,6 +600,12 @@ position:absolute;
         height:14px;
         padding-right: 10px;
       }
+      .slideshow-text{
+        font-size: 26px;
+        width: 980px;
+        text-align: center;
+        font-family: 'nashadostavka';
+      }
   
 }
 
@@ -654,6 +667,12 @@ position:absolute;
         height:12.5px;
         padding-right: 10px;
       }
+      .slideshow-text{
+        font-size: 24px;
+        width: 940px;
+        text-align: center;
+        font-family: 'nashadostavka';
+      }
 }
 
 @media (max-width:1490px){
@@ -713,6 +732,12 @@ position:absolute;
         height:12.5px;
         padding-right: 10px;
       }
+      .slideshow-text{
+        font-size: 22px;
+        width: 900px;
+        text-align: center;
+        font-family: 'nashadostavka';
+      }
   
 
 }
@@ -751,7 +776,7 @@ position:absolute;
   .button{
     border: 1px solid black;
     background: transparent;
-    padding: 10px 20px;
+    padding: 8px 15px;
     min-width: 100px;
     font-size:10px;
     font-family: 'button';
@@ -763,7 +788,7 @@ position:absolute;
     .button22{
       border: 1px solid white;
       background: transparent;
-      padding: 10px 20px;
+      padding: 8px 15px;
       min-width: 100px;
       font-size:10px;
       font-family: 'button';
@@ -775,6 +800,12 @@ position:absolute;
       .icon{
         height:12.5px;
         padding-right: 10px;
+      }
+      .slideshow-text{
+        font-size: 22px;
+        width: 870px;
+        text-align: center;
+        font-family: 'nashadostavka';
       }
   
 }
@@ -813,7 +844,7 @@ position:absolute;
   .button{
     border: 1px solid black;
     background: transparent;
-    padding: 10px 20px;
+    padding: 8px 15px;
     min-width: 100px;
     font-size:10px;
     font-family: 'button';
@@ -825,7 +856,7 @@ position:absolute;
     .button22{
       border: 1px solid white;
       background: transparent;
-      padding: 10px 20px;
+      padding: 8px 15px;
       min-width: 100px;
       font-size:10px;
       font-family: 'button';
@@ -837,6 +868,12 @@ position:absolute;
       .icon{
         height:11.5px;
         padding-right: 10px;
+      }
+      .slideshow-text{
+        font-size: 22px;
+        width:840px;
+        text-align: center;
+        font-family: 'nashadostavka';
       }
   
 }
@@ -873,7 +910,7 @@ position:absolute;
   .button{
     border: 1px solid black;
     background: transparent;
-    padding: 10px 20px;
+    padding: 8px 15px;
     max-width: 140px;
     font-size:8px;
     font-family: 'button';
@@ -885,7 +922,7 @@ position:absolute;
     .button22{
       border: 1px solid white;
       background: transparent;
-      padding: 10px 20px;
+      padding: 8px 15px;
       max-width: 140px;
       font-size:8px;
       font-family: 'button';
@@ -898,4 +935,810 @@ position:absolute;
         height:11.5px;
         padding-right: 10px;
       }
+      .slideshow-text{
+        font-size: 21px;
+        width:800px;
+        text-align: center;
+        font-family: 'nashadostavka';
+      }
 }
+@media (max-width:1120px){
+  .body{
+    background: #F0F0F0;
+    height: 100%;
+    box-sizing:border-box;
+  }
+  .h1{
+    font-size: 26px;
+    box-sizing:border-box;
+    font-family: 'Merriweather';
+    color: black;
+    margin-left: 1%;
+    margin-top: 0.4%;
+   
+  
+  }
+  .h1.h2{
+    font-size:26px;
+    box-sizing:border-box;
+    font-family: 'Merriweather';
+    color: white;
+    margin-left: 1%;
+    margin-top: 0.4%;
+  
+  }
+  .img{
+    height:35px;
+    max-width: 174px;
+    
+  }
+  .button{
+    border: 1px solid black;
+    background: transparent;
+    padding: 8px 15px;
+    max-width: 125px;
+    font-size:7px;
+    font-family: 'button';
+    cursor:pointer;
+    margin-left: 58%;
+    position:relative;
+    overflow: hidden;
+    }
+    .button22{
+      border: 1px solid white;
+      background: transparent;
+      padding: 8px 15px;
+      max-width: 125px;
+      font-size:7px;
+      font-family: 'button';
+      cursor:pointer;
+      margin-left: 58%;
+      position:relative;
+      overflow: hidden;
+      }
+      .icon{
+        height:9.5px;
+        padding-right: 10px;
+      }
+      .slideshow-text{
+        font-size: 18px;
+        width:600px;
+        text-align: center;
+        font-family: 'nashadostavka';
+      }
+}
+@media (max-width:993px){
+  .body{
+    background: #F0F0F0;
+    height: 100%;
+    box-sizing:border-box;
+  }
+  .h1{
+    font-size: 23px;
+    box-sizing:border-box;
+    font-family: 'Merriweather';
+    color: black;
+    margin-left: 1%;
+    margin-top: 0.4%;
+   
+  
+  }
+  .h1.h2{
+    font-size:23px;
+    box-sizing:border-box;
+    font-family: 'Merriweather';
+    color: white;
+    margin-left: 1%;
+    margin-top: 0.4%;
+  
+  }
+  .img{
+    height:33px;
+    max-width: 174px;
+    
+  }
+  .button{
+    border: 1px solid black;
+    background: transparent;
+    padding: 8px 15px;
+    max-width: 125px;
+    font-size:7px;
+    font-family: 'button';
+    cursor:pointer;
+    margin-left: 58%;
+    position:relative;
+    overflow: hidden;
+    }
+    .button22{
+      border: 1px solid white;
+      background: transparent;
+      padding: 8px 15px;
+      max-width: 125px;
+      font-size:7px;
+      font-family: 'button';
+      cursor:pointer;
+      margin-left: 58%;
+      position:relative;
+      overflow: hidden;
+      }
+      .icon{
+        height:9.5px;
+        padding-right: 10px;
+      }
+      .slideshow-text{
+        font-size: 16px;
+        width:550px;
+        text-align: center;
+        font-family: 'nashadostavka';
+      }
+}
+@media (max-width:993px){
+  .body{
+    background: #F0F0F0;
+    height: 100%;
+    box-sizing:border-box;
+  }
+  .h1{
+    font-size: 20px;
+    box-sizing:border-box;
+    font-family: 'Merriweather';
+    color: black;
+    margin-left: 1%;
+    margin-top: 0.7%;
+   
+  
+  }
+  .h1.h2{
+    font-size:20px;
+    box-sizing:border-box;
+    font-family: 'Merriweather';
+    color: white;
+    margin-left: 1%;
+    margin-top: 0.7%;
+  
+  }
+  .img{
+    height:30px;
+    max-width: 174px;
+    
+  }
+  .button{
+    border: 1px solid black;
+    background: transparent;
+    padding: 6px 13px;
+    max-width: 125px;
+    font-size:7px;
+    font-family: 'button';
+    cursor:pointer;
+    margin-left: 59%;
+    position:relative;
+    overflow: hidden;
+    }
+    .button22{
+      border: 1px solid white;
+      background: transparent;
+      padding: 6px 13px;
+      max-width: 125px;
+      font-size:7px;
+      font-family: 'button';
+      cursor:pointer;
+      margin-left: 59%;
+      position:relative;
+      overflow: hidden;
+      }
+      .icon{
+        height:9.5px;
+        padding-right: 10px;
+      }
+      .slideshow-text{
+        font-size: 15px;
+        width:550px;
+        text-align: center;
+        font-family: 'nashadostavka';
+      }
+}
+@media (max-width:830px){
+  .body{
+    background: #F0F0F0;
+    height: 100%;
+    box-sizing:border-box;
+  }
+  .h1{
+    font-size: 18px;
+    box-sizing:border-box;
+    font-family: 'Merriweather';
+    color: black;
+    margin-left: 1%;
+    margin-top: 0.7%;
+   
+  
+  }
+  .h1.h2{
+    font-size:18px;
+    box-sizing:border-box;
+    font-family: 'Merriweather';
+    color: white;
+    margin-left: 1%;
+    margin-top: 0.7%;
+  
+  }
+  .img{
+    height:27px;
+    max-width: 174px;
+    
+  }
+  .button{
+    border: 1px solid black;
+    background: transparent;
+    padding: 5px 12px;
+    max-width: 125px;
+    font-size:7px;
+    font-family: 'button';
+    cursor:pointer;
+    margin-left: 60%;
+    position:relative;
+    overflow: hidden;
+    }
+    .button22{
+      border: 1px solid white;
+      background: transparent;
+      padding: 5px 12px;
+      max-width: 125px;
+      font-size:7px;
+      font-family: 'button';
+      cursor:pointer;
+      margin-left: 60%;
+      position:relative;
+      overflow: hidden;
+      }
+      .icon{
+        height:8.5px;
+        padding-right: 10px;
+      }
+      .slideshow-text{
+        font-size: 14px;
+        width:520px;
+        text-align: center;
+        font-family: 'nashadostavka';
+      }
+}
+@media (max-width:790px){
+  .body{
+    background: #F0F0F0;
+    height: 100%;
+    box-sizing:border-box;
+  }
+  .h1{
+    font-size: 17px;
+    box-sizing:border-box;
+    font-family: 'Merriweather';
+    color: black;
+    margin-left: 1%;
+    margin-top: 0.7%;
+   
+  
+  }
+  .h1.h2{
+    font-size:17px;
+    box-sizing:border-box;
+    font-family: 'Merriweather';
+    color: white;
+    margin-left: 1%;
+    margin-top: 0.7%;
+  
+  }
+  .img{
+    height:26px;
+    max-width: 174px;
+    
+  }
+  .button{
+    border: 1px solid black;
+    background: transparent;
+    padding: 5px 9px;
+    max-width: 125px;
+    font-size:6px;
+    font-family: 'button';
+    cursor:pointer;
+    margin-left: 59%;
+    position:relative;
+    overflow: hidden;
+    }
+    .button22{
+      border: 1px solid white;
+      background: transparent;
+      padding: 5px 9px;
+      max-width: 120px;
+      font-size:6px;
+      font-family: 'button';
+      cursor:pointer;
+      margin-left: 59%;
+      position:relative;
+      overflow: hidden;
+      }
+      .icon{
+        height:7.5px;
+        padding-right: 7px;
+      }
+      .slideshow-text{
+        font-size: 13px;
+        width:510px;
+        text-align: center;
+        font-family: 'nashadostavka';
+      }
+}
+@media (max-width:790px){
+  .body{
+    background: #F0F0F0;
+    height: 100%;
+    box-sizing:border-box;
+  }
+  .h1{
+    font-size: 13px;
+    box-sizing:border-box;
+    font-family: 'Merriweather';
+    color: black;
+    margin-left: 1%;
+    margin-top: 0.7%;
+   
+  
+  }
+  .h1.h2{
+    font-size:13px;
+    box-sizing:border-box;
+    font-family: 'Merriweather';
+    color: white;
+    margin-left: 1%;
+    margin-top: 0.7%;
+  
+  }
+  .img{
+    height:21px;
+    max-width: 174px;
+    
+  }
+  .button{
+    border: 1px solid black;
+    background: transparent;
+    padding: 3px 9px;
+    max-width: 125px;
+    font-size:6px;
+    font-family: 'button';
+    cursor:pointer;
+    margin-left: 61%;
+    position:relative;
+    overflow: hidden;
+    }
+    .button22{
+      border: 1px solid white;
+      background: transparent;
+      padding: 3px 9px;
+      max-width: 120px;
+      font-size:6px;
+      font-family: 'button';
+      cursor:pointer;
+      margin-left: 61%;
+      position:relative;
+      overflow: hidden;
+      }
+      .icon{
+        
+        height:8px;
+        padding-right: 7 px;
+      }
+      .slideshow-text{
+        font-size: 11px;
+        width:490px;
+        text-align: center;
+        font-family: 'nashadostavka';
+      }
+}
+@media (max-width:660px){
+  .body{
+    background: #F0F0F0;
+    height: 100%;
+    box-sizing:border-box;
+  }
+  .h1{
+    font-size: 11px;
+    box-sizing:border-box;
+    font-family: 'Merriweather';
+    color: black;
+    margin-left: 1%;
+    margin-top: 0.7%;
+   
+  
+  }
+  .h1.h2{
+    font-size:11px;
+    box-sizing:border-box;
+    font-family: 'Merriweather';
+    color: white;
+    margin-left: 1%;
+    margin-top: 0.7%;
+  
+  }
+  .img{
+    height:18px;
+    max-width: 174px;
+    margin-bottom: 1%;
+    
+  }
+  .button{
+    border: 1px solid black;
+    background: transparent;
+    padding: 3px 9px;
+    max-width: 125px;
+    font-size:6px;
+    font-family: 'button';
+    cursor:pointer;
+    margin-left: 63%;
+    position:relative;
+    overflow: hidden;
+    }
+    .button22{
+      border: 1px solid white;
+      background: transparent;
+      padding: 3px 9px;
+      max-width: 120px;
+      font-size:6px;
+      font-family: 'button';
+      cursor:pointer;
+      margin-left: 63%;
+      position:relative;
+      overflow: hidden;
+      }
+      .icon{
+        
+        height:7.5px;
+        padding-right: 7px;
+      }
+      .slideshow-text{
+        font-size: 9px;
+        width:450px;
+        text-align: center;
+        font-family: 'nashadostavka';
+        margin-top: 3%;
+      }
+}
+@media (max-width:635px){
+  .body{
+    background: #F0F0F0;
+    height: 100%;
+    box-sizing:border-box;
+  }
+  .h1{
+    font-size: 9px;
+    box-sizing:border-box;
+    font-family: 'Merriweather';
+    color: black;
+    margin-left: 1%;
+    margin-top: 0.7%;
+   
+  
+  }
+  .h1.h2{
+    font-size:9px;
+    box-sizing:border-box;
+    font-family: 'Merriweather';
+    color: white;
+    margin-left: 1%;
+    margin-top: 0.7%;
+  
+  }
+  .img{
+    height:15px;
+    max-width: 174px;
+    margin-bottom: 1%;
+    
+  }
+  .button{
+    border: 1px solid black;
+    background: transparent;
+    padding: 3px 9px;
+    max-width: 120px;
+    font-size:5.5px;
+    font-family: 'button';
+    cursor:pointer;
+    margin-left: 66%;
+    position:relative;
+    overflow: hidden;
+    }
+    .button22{
+      border: 1px solid white;
+      background: transparent;
+      padding: 3px 9px;
+      max-width: 120px;
+      font-size:5.5px;
+      font-family: 'button';
+      cursor:pointer;
+      margin-left: 66%;
+      position:relative;
+      overflow: hidden;
+      }
+      .icon{
+        
+        height:7.5px;
+        padding-right: 7px;
+      }
+      .slideshow-text{
+        font-size: 8px;
+        width:400px;
+        text-align: center;
+        font-family: 'nashadostavka';
+        margin-top: 3%;
+      }
+}
+@media (max-width:540px){
+  .body{
+    background: #F0F0F0;
+    height: 100%;
+    box-sizing:border-box;
+  }
+  .h1{
+    font-size: 9px;
+    box-sizing:border-box;
+    font-family: 'Merriweather';
+    color: black;
+    margin-left: 1%;
+    margin-top: 0.7%;
+   
+  
+  }
+  .h1.h2{
+    font-size:9px;
+    box-sizing:border-box;
+    font-family: 'Merriweather';
+    color: white;
+    margin-left: 1%;
+    margin-top: 0.7%;
+  
+  }
+  .img{
+    height:15px;
+    max-width: 174px;
+    margin-bottom: 1%;
+    
+  }
+  .button{
+    border: 1px solid black;
+    background: transparent;
+    padding: 3px 9px;
+    max-width: 120px;
+    font-size:5.5px;
+    font-family: 'button';
+    cursor:pointer;
+    margin-left: 66%;
+    position:relative;
+    overflow: hidden;
+    }
+    .button22{
+      border: 1px solid white;
+      background: transparent;
+      padding: 3px 9px;
+      max-width: 120px;
+      font-size:5.5px;
+      font-family: 'button';
+      cursor:pointer;
+      margin-left: 66%;
+      position:relative;
+      overflow: hidden;
+      }
+      .icon{
+        
+        height:7.5px;
+        padding-right: 7px;
+      }
+      .slideshow-text{
+        font-size: 7px;
+        width:350px;
+        text-align: center;
+        font-family: 'nashadostavka';
+        margin-top: 3%;
+      }
+}
+@media (max-width:480px){
+  .body{
+    background: #F0F0F0;
+    height: 100%;
+    box-sizing:border-box;
+  }
+  .h1{
+    font-size: 9px;
+    box-sizing:border-box;
+    font-family: 'Merriweather';
+    color: black;
+    margin-left: 1%;
+    margin-top: 0.7%;
+   
+  
+  }
+  .h1.h2{
+    font-size:9px;
+    box-sizing:border-box;
+    font-family: 'Merriweather';
+    color: white;
+    margin-left: 1%;
+    margin-top: 0.7%;
+  
+  }
+  .img{
+    height:15px;
+    max-width: 174px;
+    margin-bottom: 1%;
+    
+  }
+  .button{
+    border: 1px solid black;
+    background: transparent;
+    padding: 3px 9px;
+    max-width: 120px;
+    font-size:5.5px;
+    font-family: 'button';
+    cursor:pointer;
+    margin-left: 48%;
+    position:relative;
+    overflow: hidden;
+    }
+    .button22{
+      border: 1px solid white;
+      background: transparent;
+      padding: 3px 7px;
+      max-width: 120px;
+      font-size:5px;
+      font-family: 'button';
+      cursor:pointer;
+      margin-left: 48%;
+      position:relative;
+      overflow: hidden;
+      }
+      .icon{
+        
+        height:7.5px;
+        padding-right: 8px;
+      }
+      .slideshow-text{
+        font-size: 7px;
+        width:350px;
+        text-align: center;
+        font-family: 'nashadostavka';
+        margin-top: 3%;
+      }
+}
+@media (max-width:480px){
+  .body{
+    background: #F0F0F0;
+    height: 100%;
+    box-sizing:border-box;
+  }
+  .h1{
+    font-size: 8px;
+    box-sizing:border-box;
+    font-family: 'Merriweather';
+    color: black;
+    margin-left: 1%;
+    margin-top: 0.7%;
+   
+  
+  }
+  .h1.h2{
+    font-size:8px;
+    box-sizing:border-box;
+    font-family: 'Merriweather';
+    color: white;
+    margin-left: 1%;
+    margin-top: 0.7%;
+  
+  }
+  .img{
+    height:15px;
+    max-width: 174px;
+    margin-bottom: 1%;
+    
+  }
+  .button{
+    border: 1px solid black;
+    background: transparent;
+    padding: 3px 9px;
+    max-width: 120px;
+    font-size:5px;
+    font-family: 'button';
+    cursor:pointer;
+    margin-left: 43%;
+    position:relative;
+    overflow: hidden;
+    }
+    .button22{
+      border: 1px solid white;
+      background: transparent;
+      padding: 3px 7px;
+      max-width: 120px;
+      font-size:5px;
+      font-family: 'button';
+      cursor:pointer;
+      margin-left: 43%;
+      position:relative;
+      overflow: hidden;
+      }
+      .icon{
+        
+        height:7.5px;
+        padding-right: 8px;
+      }
+      .slideshow-text{
+        font-size: 6px;
+        width:300px;
+        text-align: center;
+        font-family: 'nashadostavka';
+        margin-top: 3%;
+      }
+}
+@media (max-width:365px){
+  .body{
+    background: #F0F0F0;
+    height: 100%;
+    box-sizing:border-box;
+  }
+  .h1{
+    font-size: 7px;
+    box-sizing:border-box;
+    font-family: 'Merriweather';
+    color: black;
+    margin-left: 1%;
+    margin-top: 0.7%;
+   
+  
+  }
+  .h1.h2{
+    font-size:7px;
+    box-sizing:border-box;
+    font-family: 'Merriweather';
+    color: white;
+    margin-left: 1%;
+    margin-top: 0.7%;
+  
+  }
+  .img{
+    height:10px;
+    max-width: 174px;
+    margin-bottom: 1.8%;
+    
+  }
+  .button{
+    border: 1px solid black;
+    background: transparent;
+    padding: 3px 9px;
+    min-width: 120px;
+    font-size:5px;
+    font-family: 'button';
+    cursor:pointer;
+    margin-left: 40%;
+    position:relative;
+    overflow: hidden;
+    }
+    .button22{
+      border: 1px solid white;
+      background: transparent;
+      padding: 3px 7px;
+      max-width: 120px;
+      font-size:5px;
+      font-family: 'button';
+      cursor:pointer;
+      margin-left: 33%;
+      position:relative;
+      overflow: hidden;
+      }
+      .icon{
+        
+        height:7.5px;
+        padding-right: 8px;
+      }
+      .slideshow-text{
+        font-size: 5px;
+        width:200px;
+        text-align: center;
+        font-family: 'nashadostavka';
+        margin-top: 3%;
+      }
+}
+
