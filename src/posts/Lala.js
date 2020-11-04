@@ -62,7 +62,7 @@ function Lala() {
             Оставить Заявку
           </button>
         </nav>
-        <Carousel interval={2000} style={{ marginTop:"-10%" ,width: '100%'}}>
+        <Carousel interval={2000} controls={false} style={{ marginTop:"-10%" ,width: '100%'}}>
             <Carousel.Item style={{  width: '100%' }}>
               <div class='color-overlay'>
               </div>

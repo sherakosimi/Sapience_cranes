@@ -8,6 +8,10 @@ import logo1 from '../assets/newlogowhite.png'
 import appicon from '../assets/application.png'
 import appicon2 from '../assets/applicationwhite.png'
 import emailjs from "emailjs-com";
+import slide1 from '../assets/slidephoto12.JPG'
+import slide2 from '../assets/slidephoto22.JPG'
+import slide3 from '../assets/slidephoto32.JPG'
+import { Carousel } from 'react-bootstrap';
 import './styles.css';
 
 
@@ -59,8 +63,17 @@ function Application() {
                      Оставить Заявку
                   </button>
         </nav>
-        <div className="background-photo" >
-          <div className="container">
+        <Carousel interval={2000} style={{ marginTop:"-10%" ,width: '100%'}}>
+            <Carousel.Item style={{ width: '100%' }}>
+              <div class='color-overlay'>
+              </div>
+              <img
+                style={{ width: '100%' }}
+                src={slide2}
+                alt="Second slide"
+              />
+               <Carousel.Caption className="caption1">
+               <div style={{width:"50%"}} >
           <form id="contact" action="" method="post" onSubmit={sendEmail}>
             <h3>Заполните заявку</h3>
             <h4>И мы свяжемся с Вами в ближайшее время</h4>
@@ -77,7 +90,7 @@ function Application() {
               <input name="phone"  placeholder="Ваш телефон" type="tel" tabindex="3" required />
             </div>
             <div className="fieldset">
-              <textarea name="description"  placeholder="Опишите подробно Ваш вопрос..." tabindex="5" required></textarea>
+              <textarea name="description"   placeholder="Опишите подробно Ваш вопрос..." tabindex="5" required></textarea>
             </div>
             <div className="fieldset">
               <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Отправить Заявку</button>
@@ -87,7 +100,10 @@ function Application() {
             </div>
           </form>
           </div>        
-        </div>
+              </Carousel.Caption>
+            </Carousel.Item>
+           
+          </Carousel>
       </body>
     </html>
   );

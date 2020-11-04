@@ -11,6 +11,12 @@
   justify-content: center;
   margin-bottom: 25%;
 }
+.caption1 {
+  height:22%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40%;
+}
 .background-photo{
   width: 100%;
   height:110%;
@@ -52,7 +58,7 @@
 #contact h4 {
   margin: 5px 0 15px;
   display: block;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 400;
 }
 
@@ -236,7 +242,6 @@ fieldset {
   flex-direction: column;
   margin: 3%;
   background-color: #2a2a2a;
-  
   overflow: hidden;
   height:329px;
   width:300px;
@@ -291,7 +296,7 @@ fieldset {
 }
 .body1{
   background: #888888;
-  height: 970px;
+  height:100%;
   box-sizing:border-box;
 }
 
@@ -301,12 +306,6 @@ fieldset {
   width: 100%;
   box-sizing:border-box;
   margin-top: -10px;
-}
-.container{
-  background:transparent;
-  height: 50%;
-  margin-top: 12%;
-  width:30%
 }
 .h1{
   font-size: 70px;
@@ -430,17 +429,6 @@ color:white;
   will-change: opacity;
 }
 
-.navbar {
-  background:transparent;
-  height:10%;
-  display: flex;
-  position: sticky;
-  flex-wrap: nowrap;
-  justify-content: flex-start;
-  top:0;
-  box-sizing:border-box;
-  z-index: 999;
-}
 .slideshow{
   width:100%;
   height: 100%;
@@ -454,6 +442,17 @@ color:white;
   background:tra;
   margin-top:10%;
   margin-left: 30%;
+}
+.navbar {
+  background:transparent;
+  height:10%;
+  display: flex;
+  position: sticky;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  top:0;
+  box-sizing:border-box;
+  z-index: 999;
 }
 .navbar.active {
   background:#F0F0F0;
@@ -484,6 +483,59 @@ position:absolute;
 
 
 @media (max-width:1860px){
+  #contact h3 {
+    display: block;
+    font-size: 28px;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+  
+  #contact h4 {
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 11px;
+    font-weight: 400;
+  }
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+  width: 100%;
+  height:40px ;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+#contact textarea {
+  height: 90px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: rgb(0, 0, 0);
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 8px;
+  font-size: 15px;
+}
+
+#contact button[type="cancel"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: rgb(83, 83, 83);
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 8px;
+  font-size: 15px;
+}
+
   .body{
     background: #F0F0F0;
     height: 100%;
@@ -543,6 +595,112 @@ position:absolute;
       }
 }
 @media (max-width:1674px){
+  #contact h3 {
+    display: block;
+    font-size: 28px;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+  
+  #contact h4 {
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 11px;
+    font-weight: 400;
+  }
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+  width: 100%;
+  height:40px ;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+#contact textarea {
+  height: 90px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: rgb(0, 0, 0);
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 8px;
+  font-size: 15px;
+}
+
+#contact button[type="cancel"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: rgb(83, 83, 83);
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 8px;
+  font-size: 15px;
+}
+
+  .body{
+    background: #F0F0F0;
+    height: 100%;
+    box-sizing:border-box;
+  }
+  .h1{
+    font-size: 60px;
+    box-sizing:border-box;
+    font-family: 'Merriweather';
+    color: black;
+    margin-left: 1%;
+    margin-top: 0.4%;
+   
+  
+  }
+  .h1.h2{
+    font-size:60px;
+    box-sizing:border-box;
+    font-family: 'Merriweather';
+    color: white;
+    margin-left: 1%;
+    margin-top: 0.4%;
+  
+  }
+  .img{
+    height:70px;
+    max-width: 174px;
+    
+  }
+  .button{
+    border: 1px solid black;
+    background: transparent;
+    padding: 10px 20px;
+    min-width: 190px;
+    font-size:13px;
+    font-family: 'button';
+    cursor:pointer;
+    margin-left: 52%;
+    position:relative;
+    overflow: hidden;
+    }
+    .button22{
+      border: 1px solid white;
+      background: transparent;
+      padding: 10px 20px;
+      min-width: 190px;
+      font-size:13px;
+      font-family: 'button';
+      cursor:pointer;
+      margin-left: 52%;
+      position:relative;
+      overflow: hidden;
+      }
   .body{
     background: #F0F0F0;
     height: 100%;
@@ -675,7 +833,119 @@ position:absolute;
       }
 }
 
-@media (max-width:1490px){
+@media (max-width:1500px){
+  .caption1 {
+    height:22%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 44%;
+  }
+  #contact h3 {
+    display: block;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+  
+  #contact h4 {
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 8px;
+    font-weight: 400;
+  }
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+  width: 90%;
+  height:30px ;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+#contact textarea {
+  height: 60px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 90%;
+  border: none;
+  background: rgb(0, 0, 0);
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 5px;
+  font-size: 15px;
+}
+
+#contact button[type="cancel"] {
+  cursor: pointer;
+  width: 90%;
+  border: none;
+  background: rgb(83, 83, 83);
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 5px;
+  font-size: 15px;
+}
+
+  .body{
+    background: #F0F0F0;
+    height: 100%;
+    box-sizing:border-box;
+  }
+  .h1{
+    font-size: 60px;
+    box-sizing:border-box;
+    font-family: 'Merriweather';
+    color: black;
+    margin-left: 1%;
+    margin-top: 0.4%;
+   
+  
+  }
+  .h1.h2{
+    font-size:60px;
+    box-sizing:border-box;
+    font-family: 'Merriweather';
+    color: white;
+    margin-left: 1%;
+    margin-top: 0.4%;
+  
+  }
+  .img{
+    height:70px;
+    max-width: 174px;
+    
+  }
+  .button{
+    border: 1px solid black;
+    background: transparent;
+    padding: 10px 20px;
+    min-width: 190px;
+    font-size:13px;
+    font-family: 'button';
+    cursor:pointer;
+    margin-left: 52%;
+    position:relative;
+    overflow: hidden;
+    }
+    .button22{
+      border: 1px solid white;
+      background: transparent;
+      padding: 10px 20px;
+      min-width: 190px;
+      font-size:13px;
+      font-family: 'button';
+      cursor:pointer;
+      margin-left: 52%;
+      position:relative;
+      overflow: hidden;
+      }
   .body{
     background: #F0F0F0;
     height: 100%;
@@ -812,6 +1082,65 @@ position:absolute;
 
 
 @media (max-width:1298px){
+  .caption1 {
+    height:22%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 43%;
+  }
+  #contact h3 {
+    display: block;
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+  
+  #contact h4 {
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 9px;
+    font-weight: 400;
+  }
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+  width: 100%;
+  height:30px ;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+#contact textarea {
+  height: 70px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: rgb(0, 0, 0);
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 6px;
+  font-size: 15px;
+}
+
+#contact button[type="cancel"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: rgb(83, 83, 83);
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 6px;
+  font-size: 15px;
+}
+
   .body{
     background: #F0F0F0;
     height: 100%;
@@ -1007,72 +1336,23 @@ position:absolute;
         font-family: 'nashadostavka';
       }
 }
+
 @media (max-width:993px){
-  .body{
-    background: #F0F0F0;
-    height: 100%;
+  .navbar {
+    background:transparent;
+    height:70px;
+    display: flex;
+    position: sticky;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    top:0;
+    box-sizing:border-box;
+    z-index: 999;
+  }
+  .navbar.active {
+    background:#F0F0F0;
     box-sizing:border-box;
   }
-  .h1{
-    font-size: 23px;
-    box-sizing:border-box;
-    font-family: 'Merriweather';
-    color: black;
-    margin-left: 1%;
-    margin-top: 0.4%;
-   
-  
-  }
-  .h1.h2{
-    font-size:23px;
-    box-sizing:border-box;
-    font-family: 'Merriweather';
-    color: white;
-    margin-left: 1%;
-    margin-top: 0.4%;
-  
-  }
-  .img{
-    height:33px;
-    max-width: 174px;
-    
-  }
-  .button{
-    border: 1px solid black;
-    background: transparent;
-    padding: 8px 15px;
-    max-width: 125px;
-    font-size:7px;
-    font-family: 'button';
-    cursor:pointer;
-    margin-left: 58%;
-    position:relative;
-    overflow: hidden;
-    }
-    .button22{
-      border: 1px solid white;
-      background: transparent;
-      padding: 8px 15px;
-      max-width: 125px;
-      font-size:7px;
-      font-family: 'button';
-      cursor:pointer;
-      margin-left: 58%;
-      position:relative;
-      overflow: hidden;
-      }
-      .icon{
-        height:9.5px;
-        padding-right: 10px;
-      }
-      .slideshow-text{
-        font-size: 16px;
-        width:550px;
-        text-align: center;
-        font-family: 'nashadostavka';
-      }
-}
-@media (max-width:993px){
   .body{
     background: #F0F0F0;
     height: 100%;
@@ -1131,20 +1411,35 @@ position:absolute;
         padding-right: 10px;
       }
       .slideshow-text{
-        font-size: 15px;
+        font-size: 17px;
         width:550px;
         text-align: center;
         font-family: 'nashadostavka';
       }
 }
 @media (max-width:830px){
+  .navbar {
+    background:transparent;
+    height:70px;
+    display: flex;
+    position: sticky;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    top:0;
+    box-sizing:border-box;
+    z-index: 999;
+  }
+  .navbar.active {
+    background:#F0F0F0;
+    box-sizing:border-box;
+  }
   .body{
     background: #F0F0F0;
     height: 100%;
     box-sizing:border-box;
   }
   .h1{
-    font-size: 18px;
+    font-size: 20px;
     box-sizing:border-box;
     font-family: 'Merriweather';
     color: black;
@@ -1154,7 +1449,7 @@ position:absolute;
   
   }
   .h1.h2{
-    font-size:18px;
+    font-size:20px;
     box-sizing:border-box;
     font-family: 'Merriweather';
     color: white;
@@ -1172,7 +1467,7 @@ position:absolute;
     background: transparent;
     padding: 5px 12px;
     max-width: 125px;
-    font-size:7px;
+    font-size:8px;
     font-family: 'button';
     cursor:pointer;
     margin-left: 60%;
@@ -1184,7 +1479,7 @@ position:absolute;
       background: transparent;
       padding: 5px 12px;
       max-width: 125px;
-      font-size:7px;
+      font-size:8px;
       font-family: 'button';
       cursor:pointer;
       margin-left: 60%;
@@ -1194,6 +1489,7 @@ position:absolute;
       .icon{
         height:8.5px;
         padding-right: 10px;
+        display: none;
       }
       .slideshow-text{
         font-size: 14px;
@@ -1202,7 +1498,187 @@ position:absolute;
         font-family: 'nashadostavka';
       }
 }
+
 @media (max-width:790px){
+  .categories-head{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+     margin-top: 3%;
+   
+   }
+   .box1{
+  display: flex;
+  flex-direction: column;
+  margin: 3%;
+  background-color: #2a2a2a;
+  overflow: hidden;
+  height:300px;
+  width:100px;
+ 
+  box-shadow: 5px 8px 10px 5px #888888;
+}
+
+.categories-image1{
+  height:90%;
+  width:100%;
+
+  }
+  .navbar {
+    background:transparent;
+    height:70px;
+    display: flex;
+    position: sticky;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    top:0;
+    box-sizing:border-box;
+    z-index: 999;
+  }
+  .navbar.active {
+    background:#F0F0F0;
+    box-sizing:border-box;
+  }
+  .body{
+    background: #F0F0F0;
+    height: 100%;
+    box-sizing:border-box;
+  }
+  .h1{
+    font-size: 20px;
+    box-sizing:border-box;
+    font-family: 'Merriweather';
+    color: black;
+    margin-left: 1%;
+    margin-top: 0.7%;
+   
+  
+  }
+  .h1.h2{
+    font-size:20px;
+    box-sizing:border-box;
+    font-family: 'Merriweather';
+    color: white;
+    margin-left: 1%;
+    margin-top: 0.7%;
+  
+  }
+  .img{
+    height:40px;
+    max-width: 174px;
+    
+  }
+  .button{
+    border: 1px solid black;
+    background: transparent;
+      padding: 5px 10px;
+      max-width: 140px;
+      font-size:8px;
+      font-family: 'button';
+      cursor:pointer;
+      position:relative;
+      overflow: hidden;
+      
+    }
+    .button22{
+      border: 1px solid white;
+      background: transparent;
+      padding: 5px 11px;
+      max-width: 140px;
+      font-size:8px;
+      font-family: 'button';
+      cursor:pointer;
+      position:relative;
+      overflow: hidden;
+      
+      }
+      .icon{
+        display: none;
+        height:7px;
+        padding-right: 7 px;
+      }
+      .slideshow-text{
+        font-size: 14px;
+        width:490px;
+        text-align: center;
+        font-family: 'nashadostavka';
+      }
+}
+@media (max-width:680px){
+  .navbar {
+    background:transparent;
+    height:60px;
+    display: flex;
+    position: sticky;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    top:0;
+    box-sizing:border-box;
+    z-index: 999;
+  }
+  .navbar.active {
+    background:#F0F0F0;
+    box-sizing:border-box;
+  }
+  .body{
+    background: #F0F0F0;
+    height: 100%;
+    box-sizing:border-box;
+  }
+  .h1{
+    font-size: 20px;
+    box-sizing:border-box;
+    font-family: 'Merriweather';
+    color: black;
+    margin-left: 1%;
+    margin-top: 0.7%;
+   
+  
+  }
+  .h1.h2{
+    font-size:20px;
+    box-sizing:border-box;
+    font-family: 'Merriweather';
+    color: white;
+    margin-left: 1%;
+    margin-top: 0.7%;
+  
+  }
+  .img{
+    height:40px;
+    max-width: 174px;
+    margin-bottom: 1%;
+    
+  }
+      .icon{
+        
+        height:7.5px;
+        padding-right: 7px;
+      }
+      .slideshow-text{
+        font-size: 13px;
+        width:430px;
+        text-align: center;
+        font-family: 'nashadostavka';
+        margin-top: 1%;
+      }
+}
+@media (max-width:635px){
+  .navbar {
+    background:transparent;
+    height:50px;
+    display: flex;
+    position: sticky;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    top:0;
+    box-sizing:border-box;
+    z-index: 999;
+  }
+  .navbar.active {
+    background:#F0F0F0;
+    box-sizing:border-box;
+  }
   .body{
     background: #F0F0F0;
     height: 100%;
@@ -1230,239 +1706,17 @@ position:absolute;
   .img{
     height:26px;
     max-width: 174px;
+    margin-bottom: 1%;
     
   }
-  .button{
-    border: 1px solid black;
-    background: transparent;
-    padding: 5px 9px;
-    max-width: 125px;
-    font-size:6px;
-    font-family: 'button';
-    cursor:pointer;
-    margin-left: 59%;
-    position:relative;
-    overflow: hidden;
-    }
-    .button22{
-      border: 1px solid white;
-      background: transparent;
-      padding: 5px 9px;
-      max-width: 120px;
-      font-size:6px;
-      font-family: 'button';
-      cursor:pointer;
-      margin-left: 59%;
-      position:relative;
-      overflow: hidden;
-      }
-      .icon{
-        height:7.5px;
-        padding-right: 7px;
-      }
-      .slideshow-text{
-        font-size: 13px;
-        width:510px;
-        text-align: center;
-        font-family: 'nashadostavka';
-      }
-}
-@media (max-width:790px){
-  .body{
-    background: #F0F0F0;
-    height: 100%;
-    box-sizing:border-box;
-  }
-  .h1{
-    font-size: 13px;
-    box-sizing:border-box;
-    font-family: 'Merriweather';
-    color: black;
-    margin-left: 1%;
-    margin-top: 0.7%;
-   
   
-  }
-  .h1.h2{
-    font-size:13px;
-    box-sizing:border-box;
-    font-family: 'Merriweather';
-    color: white;
-    margin-left: 1%;
-    margin-top: 0.7%;
-  
-  }
-  .img{
-    height:21px;
-    max-width: 174px;
-    
-  }
-  .button{
-    border: 1px solid black;
-    background: transparent;
-    padding: 3px 9px;
-    max-width: 125px;
-    font-size:6px;
-    font-family: 'button';
-    cursor:pointer;
-    margin-left: 61%;
-    position:relative;
-    overflow: hidden;
-    }
-    .button22{
-      border: 1px solid white;
-      background: transparent;
-      padding: 3px 9px;
-      max-width: 120px;
-      font-size:6px;
-      font-family: 'button';
-      cursor:pointer;
-      margin-left: 61%;
-      position:relative;
-      overflow: hidden;
-      }
       .icon{
         
-        height:8px;
-        padding-right: 7 px;
+        height:7.5px;
+        padding-right: 7px;
       }
       .slideshow-text{
         font-size: 11px;
-        width:490px;
-        text-align: center;
-        font-family: 'nashadostavka';
-      }
-}
-@media (max-width:660px){
-  .body{
-    background: #F0F0F0;
-    height: 100%;
-    box-sizing:border-box;
-  }
-  .h1{
-    font-size: 11px;
-    box-sizing:border-box;
-    font-family: 'Merriweather';
-    color: black;
-    margin-left: 1%;
-    margin-top: 0.7%;
-   
-  
-  }
-  .h1.h2{
-    font-size:11px;
-    box-sizing:border-box;
-    font-family: 'Merriweather';
-    color: white;
-    margin-left: 1%;
-    margin-top: 0.7%;
-  
-  }
-  .img{
-    height:18px;
-    max-width: 174px;
-    margin-bottom: 1%;
-    
-  }
-  .button{
-    border: 1px solid black;
-    background: transparent;
-    padding: 3px 9px;
-    max-width: 125px;
-    font-size:6px;
-    font-family: 'button';
-    cursor:pointer;
-    margin-left: 63%;
-    position:relative;
-    overflow: hidden;
-    }
-    .button22{
-      border: 1px solid white;
-      background: transparent;
-      padding: 3px 9px;
-      max-width: 120px;
-      font-size:6px;
-      font-family: 'button';
-      cursor:pointer;
-      margin-left: 63%;
-      position:relative;
-      overflow: hidden;
-      }
-      .icon{
-        
-        height:7.5px;
-        padding-right: 7px;
-      }
-      .slideshow-text{
-        font-size: 9px;
-        width:450px;
-        text-align: center;
-        font-family: 'nashadostavka';
-        margin-top: 3%;
-      }
-}
-@media (max-width:635px){
-  .body{
-    background: #F0F0F0;
-    height: 100%;
-    box-sizing:border-box;
-  }
-  .h1{
-    font-size: 9px;
-    box-sizing:border-box;
-    font-family: 'Merriweather';
-    color: black;
-    margin-left: 1%;
-    margin-top: 0.7%;
-   
-  
-  }
-  .h1.h2{
-    font-size:9px;
-    box-sizing:border-box;
-    font-family: 'Merriweather';
-    color: white;
-    margin-left: 1%;
-    margin-top: 0.7%;
-  
-  }
-  .img{
-    height:15px;
-    max-width: 174px;
-    margin-bottom: 1%;
-    
-  }
-  .button{
-    border: 1px solid black;
-    background: transparent;
-    padding: 3px 9px;
-    max-width: 120px;
-    font-size:5.5px;
-    font-family: 'button';
-    cursor:pointer;
-    margin-left: 66%;
-    position:relative;
-    overflow: hidden;
-    }
-    .button22{
-      border: 1px solid white;
-      background: transparent;
-      padding: 3px 9px;
-      max-width: 120px;
-      font-size:5.5px;
-      font-family: 'button';
-      cursor:pointer;
-      margin-left: 66%;
-      position:relative;
-      overflow: hidden;
-      }
-      .icon{
-        
-        height:7.5px;
-        padding-right: 7px;
-      }
-      .slideshow-text{
-        font-size: 8px;
         width:400px;
         text-align: center;
         font-family: 'nashadostavka';
@@ -1470,13 +1724,28 @@ position:absolute;
       }
 }
 @media (max-width:540px){
+  .navbar {
+    background:transparent;
+    height:50px;
+    display: flex;
+    position: sticky;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    top:0;
+    box-sizing:border-box;
+    z-index: 999;
+  }
+  .navbar.active {
+    background:#F0F0F0;
+    box-sizing:border-box;
+  }
   .body{
     background: #F0F0F0;
     height: 100%;
     box-sizing:border-box;
   }
   .h1{
-    font-size: 9px;
+    font-size: 16px;
     box-sizing:border-box;
     font-family: 'Merriweather';
     color: black;
@@ -1486,7 +1755,7 @@ position:absolute;
   
   }
   .h1.h2{
-    font-size:9px;
+    font-size:16px;
     box-sizing:border-box;
     font-family: 'Merriweather';
     color: white;
@@ -1495,153 +1764,103 @@ position:absolute;
   
   }
   .img{
-    height:15px;
+    height:24px;
     max-width: 174px;
     margin-bottom: 1%;
+    margin-left: 1%;
     
   }
   .button{
     border: 1px solid black;
     background: transparent;
-    padding: 3px 9px;
-    max-width: 120px;
-    font-size:5.5px;
-    font-family: 'button';
-    cursor:pointer;
-    margin-left: 66%;
-    position:relative;
-    overflow: hidden;
+      padding: 5px 10px;
+      max-width: 140px;
+      font-size:8px;
+      font-family: 'button';
+     
+      cursor:pointer;
+      position:relative;
+      overflow: hidden;
+      
     }
     .button22{
       border: 1px solid white;
       background: transparent;
-      padding: 3px 9px;
-      max-width: 120px;
-      font-size:5.5px;
+      padding: 5px 11px;
+      max-width: 140px;
+      font-size:8px;
+      
       font-family: 'button';
       cursor:pointer;
-      margin-left: 66%;
       position:relative;
       overflow: hidden;
-      }
+    }
       .icon{
         
         height:7.5px;
         padding-right: 7px;
       }
       .slideshow-text{
-        font-size: 7px;
-        width:350px;
+        font-size: 11px;
+        width:330px;
         text-align: center;
         font-family: 'nashadostavka';
-        margin-top: 3%;
+        margin-top: 1%;
       }
 }
+
 @media (max-width:480px){
+  .navbar {
+    background:transparent;
+    height:40px;
+    display: flex;
+    position: sticky;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    top:0;
+    box-sizing:border-box;
+    z-index: 999;
+  }
+  .navbar.active {
+    background:#F0F0F0;
+    box-sizing:border-box;
+  }
   .body{
     background: #F0F0F0;
     height: 100%;
     box-sizing:border-box;
   }
   .h1{
-    font-size: 9px;
+    font-size: 16px;
     box-sizing:border-box;
     font-family: 'Merriweather';
     color: black;
     margin-left: 1%;
-    margin-top: 0.7%;
+    margin-top: 2%;
    
   
   }
   .h1.h2{
-    font-size:9px;
+    font-size:16px;
     box-sizing:border-box;
     font-family: 'Merriweather';
     color: white;
     margin-left: 1%;
-    margin-top: 0.7%;
+    margin-top: 2%;
   
   }
   .img{
-    height:15px;
+    height:23px;
     max-width: 174px;
-    margin-bottom: 1%;
+    margin-top: 1%;
     
   }
   .button{
     border: 1px solid black;
     background: transparent;
-    padding: 3px 9px;
+    padding: 3px 7px;
     max-width: 120px;
-    font-size:5.5px;
-    font-family: 'button';
-    cursor:pointer;
-    margin-left: 48%;
-    position:relative;
-    overflow: hidden;
-    }
-    .button22{
-      border: 1px solid white;
-      background: transparent;
-      padding: 3px 7px;
-      max-width: 120px;
-      font-size:5px;
-      font-family: 'button';
-      cursor:pointer;
-      margin-left: 48%;
-      position:relative;
-      overflow: hidden;
-      }
-      .icon{
-        
-        height:7.5px;
-        padding-right: 8px;
-      }
-      .slideshow-text{
-        font-size: 7px;
-        width:350px;
-        text-align: center;
-        font-family: 'nashadostavka';
-        margin-top: 3%;
-      }
-}
-@media (max-width:480px){
-  .body{
-    background: #F0F0F0;
-    height: 100%;
-    box-sizing:border-box;
-  }
-  .h1{
-    font-size: 8px;
-    box-sizing:border-box;
-    font-family: 'Merriweather';
-    color: black;
-    margin-left: 1%;
-    margin-top: 0.7%;
-   
-  
-  }
-  .h1.h2{
-    font-size:8px;
-    box-sizing:border-box;
-    font-family: 'Merriweather';
-    color: white;
-    margin-left: 1%;
-    margin-top: 0.7%;
-  
-  }
-  .img{
-    height:15px;
-    max-width: 174px;
-    margin-bottom: 1%;
-    
-  }
-  .button{
-    border: 1px solid black;
-    background: transparent;
-    padding: 3px 9px;
-    max-width: 120px;
-    font-size:5px;
+    font-size:7px;
     font-family: 'button';
     cursor:pointer;
     margin-left: 43%;
@@ -1653,7 +1872,7 @@ position:absolute;
       background: transparent;
       padding: 3px 7px;
       max-width: 120px;
-      font-size:5px;
+      font-size:7px;
       font-family: 'button';
       cursor:pointer;
       margin-left: 43%;
@@ -1666,40 +1885,55 @@ position:absolute;
         padding-right: 8px;
       }
       .slideshow-text{
-        font-size: 6px;
-        width:300px;
+        font-size: 10px;
+        width:280px;
         text-align: center;
         font-family: 'nashadostavka';
-        margin-top: 3%;
+        margin-top: 0%;
       }
 }
-@media (max-width:365px){
+@media (max-width:380px){
+  .navbar {
+    background:transparent;
+    height:32px;
+    display: flex;
+    position: sticky;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    top:0;
+    box-sizing:border-box;
+    z-index: 999;
+  }
+  .navbar.active {
+    background:#F0F0F0;
+    box-sizing:border-box;
+  }
   .body{
     background: #F0F0F0;
     height: 100%;
     box-sizing:border-box;
   }
   .h1{
-    font-size: 7px;
+    font-size: 14px;
     box-sizing:border-box;
     font-family: 'Merriweather';
     color: black;
     margin-left: 1%;
-    margin-top: 0.7%;
+    margin-top: 3%;
    
   
   }
   .h1.h2{
-    font-size:7px;
+    font-size:14px;
     box-sizing:border-box;
     font-family: 'Merriweather';
     color: white;
     margin-left: 1%;
-    margin-top: 0.7%;
+    margin-top: 3%;
   
   }
   .img{
-    height:10px;
+    height:20px;
     max-width: 174px;
     margin-bottom: 1.8%;
     
@@ -1707,12 +1941,12 @@ position:absolute;
   .button{
     border: 1px solid black;
     background: transparent;
-    padding: 3px 9px;
-    min-width: 120px;
-    font-size:5px;
+    padding: 3px 7px;
+    max-width: 120px;
+    font-size:6px;
     font-family: 'button';
     cursor:pointer;
-    margin-left: 40%;
+    margin-left: 33%;
     position:relative;
     overflow: hidden;
     }
@@ -1721,7 +1955,7 @@ position:absolute;
       background: transparent;
       padding: 3px 7px;
       max-width: 120px;
-      font-size:5px;
+      font-size:6px;
       font-family: 'button';
       cursor:pointer;
       margin-left: 33%;
@@ -1734,11 +1968,11 @@ position:absolute;
         padding-right: 8px;
       }
       .slideshow-text{
-        font-size: 5px;
-        width:200px;
+        font-size: 8px;
+        width:220px;
         text-align: center;
         font-family: 'nashadostavka';
-        margin-top: 3%;
+        margin-top: -6%;
       }
 }
 
